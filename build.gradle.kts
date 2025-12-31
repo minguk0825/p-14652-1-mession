@@ -6,21 +6,14 @@ plugins {
 
 group = "com"
 version = "0.0.1-SNAPSHOT"
-<<<<<<< HEAD
+
 description = "back"
 
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
-=======
-description = "p-14652-1"
 
-java {
-    toolchain {
-        languageVersion = JavaLanguageVersion.of(25)
->>>>>>> upstream/main
-    }
-}
+
 
 configurations {
     compileOnly {
