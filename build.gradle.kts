@@ -12,6 +12,8 @@ description = "back"
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
+    }
+}
 
 
 
@@ -30,15 +32,12 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-webmvc")
     implementation("org.apache.kafka:kafka-streams")
     compileOnly("org.projectlombok:lombok")
-<<<<<<< HEAD
     testCompileOnly("org.projectlombok:lombok")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     annotationProcessor("org.projectlombok:lombok")
     testAnnotationProcessor("org.projectlombok:lombok")
-=======
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     annotationProcessor("org.projectlombok:lombok")
->>>>>>> upstream/main
     testImplementation("org.springframework.boot:spring-boot-starter-kafka-test")
     testImplementation("org.springframework.boot:spring-boot-starter-webmvc-test")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
